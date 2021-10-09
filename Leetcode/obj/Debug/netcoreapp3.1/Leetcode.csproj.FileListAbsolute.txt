@@ -11,3 +11,16 @@
 /Users/amanchhatbar/Desktop/VS_Coding/Leetcode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.genruntimeconfig.cache
 /Users/amanchhatbar/Desktop/VS_Coding/Leetcode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.csproj.AssemblyReference.cache
 /Users/amanchhatbar/Desktop/VS_Coding/Leetcode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/bin/Debug/netcoreapp3.1/Leetcode.deps.json
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/bin/Debug/netcoreapp3.1/Leetcode.runtimeconfig.json
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/bin/Debug/netcoreapp3.1/Leetcode.runtimeconfig.dev.json
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/bin/Debug/netcoreapp3.1/Leetcode.dll
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/bin/Debug/netcoreapp3.1/Leetcode.pdb
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.csproj.AssemblyReference.cache
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.AssemblyInfoInputs.cache
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.AssemblyInfo.cs
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.csproj.CoreCompileInputs.cache
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.dll
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.pdb
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.genruntimeconfig.cache

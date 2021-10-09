@@ -3,8 +3,7 @@ namespace Leetcode
 {
     public class HowSum
     {
-        public HowSum()
-        {
-        }
+
+
     }
 }

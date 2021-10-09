@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/amanchhatbar/Desktop/VS_Coding/Leetcode/Leetcode/Leetcode.csproj": {}
+    "/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Leetcode.csproj": {}
   },
   "projects": {
-    "/Users/amanchhatbar/Desktop/VS_Coding/Leetcode/Leetcode/Leetcode.csproj": {
+    "/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Leetcode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amanchhatbar/Desktop/VS_Coding/Leetcode/Leetcode/Leetcode.csproj",
+        "projectUniqueName": "/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Leetcode.csproj",
         "projectName": "Leetcode",
-        "projectPath": "/Users/amanchhatbar/Desktop/VS_Coding/Leetcode/Leetcode/Leetcode.csproj",
+        "projectPath": "/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Leetcode.csproj",
         "packagesPath": "/Users/amanchhatbar/.nuget/packages/",
-        "outputPath": "/Users/amanchhatbar/Desktop/VS_Coding/Leetcode/Leetcode/obj/",
+        "outputPath": "/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/amanchhatbar/.config/NuGet/NuGet.Config"
