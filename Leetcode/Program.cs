@@ -7,9 +7,11 @@ namespace Leetcode
         static void Main(string[] args)
         {
 
-            CanSum cs = new CanSum();
-            Console.WriteLine(cs.CanSumMethod(7, new int[] { 5, 3, 4, 7 }));
-            Console.WriteLine(cs.CanSumMethod(300, new int[] { 7, 14 }));
+            HowSum cs = new HowSum();
+            List<int> results = new List<int>();
+            var e = cs.HowSumRecursive(7, new int[] { 5, 3, 4, 7 }, results);
+            Console.WriteLine(cs.HowSumRecursive(7, new int[] { 5, 3, 4, 7 }, results));
+            Console.WriteLine(cs.HowSumRecursive(300, new int[] { 7, 14 }, results));
 
             //GridTraveller g = new GridTraveller();
             //Console.WriteLine(g.TravelGridRecursivelyMemoization(18, 18));
