@@ -17,7 +17,11 @@ namespace Leetcode
 
             for (int i = 0; i < numbers.Length; i++)
             {
+                Console.WriteLine("i " + i);
+                Console.WriteLine("Target " + target);
                 var result = HowSumRecursive(target - numbers[i], numbers, resultList);
+                Console.WriteLine(result);
+                Console.WriteLine("Target " + target);
                 if (result != null)
                 {
                     resultList.Add(target);
