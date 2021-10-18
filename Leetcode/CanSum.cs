@@ -5,6 +5,24 @@ namespace Leetcode
 {
     public class CanSum
     {
+        public bool CanSumMethod(int target, int[] numbers)
+        {
+           
+            if (target == 0) return true;
+            if (target < 0) return false;
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (CanSumMethod(target - numbers[i], numbers))
+                {
+                    
+                    return true;
+                }
+            }
+            return false ;
+
+        }
+
         public bool CanSumMethod(int target, int[] numbers, Dictionary<int, bool> keyValuePairs = null)
         {
             if (keyValuePairs == null) keyValuePairs = new Dictionary<int, bool>();
