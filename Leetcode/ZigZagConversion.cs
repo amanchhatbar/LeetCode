@@ -14,16 +14,22 @@ namespace Leetcode
             int j = 0;
             for (int i = 0; i < 100; i++) //Column TODO: MaxLimit
             {
-                for (; j < numRows; j++) //Row
+                if (i / (numRows - 1) == 0)
                 {
-                    if(i / (numRows - 1) == 0)
+                    for (j = 0; j < numRows; j++) //Row
                     {
-                        j = 1;
-                        break;
-                       
+
                     }
                 }
-                j--;
+                else
+                {
+                    for (; j < numRows; j++) //Row
+                    {
+
+                    }
+                    j--;
+                }
+                
             }
 
 
