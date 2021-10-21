@@ -1,16 +1,12 @@
 ﻿<Properties StartupConfiguration="{A2F91633-D976-44D9-815A-3F94CDFCFAF9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Leetcode/ShortestPath.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Leetcode/ZigZagConversion.cs">
     <Files>
-      <File FileName="Leetcode/Program.cs" Line="10" Column="65" />
-      <File FileName="Leetcode/HowSum.cs" Line="29" Column="18" />
-      <File FileName="Leetcode/FirstAndLastArray.cs" Line="6" Column="8" />
-      <File FileName="Leetcode/Stack.cs" Line="1" Column="1" />
-      <File FileName="Leetcode/GridTraveller.cs" Line="19" Column="14" />
-      <File FileName="Leetcode/BinaryTree.cs" Line="26" Column="1" />
-      <File FileName="Leetcode/CanSum.cs" Line="16" Column="64" />
-      <File FileName="Leetcode/MergeSort.cs" Line="28" Column="6" />
-      <File FileName="Leetcode/ReverseLinkedList.cs" Line="1" Column="1" />
-      <File FileName="Leetcode/ShortestPath.cs" Line="19" Column="24" />
+      <File FileName="Leetcode/Program.cs" Line="30" Column="1" IsPinned="True" />
+      <File FileName="Leetcode/BinaryTree.cs" Line="15" Column="10" />
+      <File FileName="Leetcode/ShortestPath.cs" Line="1" Column="1" />
+      <File FileName="Leetcode/HowSum.cs" Line="1" Column="1" />
+      <File FileName="Leetcode/GridTraveller.cs" Line="34" Column="14" />
+      <File FileName="Leetcode/ZigZagConversion.cs" Line="21" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,6 +29,7 @@
       <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Program.cs" relfile="Leetcode/Program.cs" line="14" column="1" />
       <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/HowSum.cs" relfile="Leetcode/HowSum.cs" line="13" column="1" />
       <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/HowSum.cs" relfile="Leetcode/HowSum.cs" line="10" column="1" />
+      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/ZigZagConversion.cs" relfile="Leetcode/ZigZagConversion.cs" line="16" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
