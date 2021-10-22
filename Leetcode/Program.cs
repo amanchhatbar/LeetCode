@@ -6,8 +6,11 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            WordPermutation wp = new WordPermutation();
-            wp.IsPermutationPalindrome("Tact Cao");
+            CharsByFrequency c = new CharsByFrequency();
+            c.FrequencySort("tree");
+
+            //WordPermutation wp = new WordPermutation();
+            //wp.IsPermutationPalindrometionPalindrome("Tact Cao");
             //FirstAndLastArrays fl = new FirstAndLastArrays();
             //fl.nonRecursion(new int[] { 5, 7, 7, 8, 8, 10 }, 8);
             //HowSum cs = new HowSum();
