@@ -6,8 +6,10 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            FirstAndLastArrays fl = new FirstAndLastArrays();
-            fl.nonRecursion(new int[] { 5, 7, 7, 8, 8, 10 }, 8);
+            WordPermutation wp = new WordPermutation();
+            wp.IsPermutationPalindrome("Tact Cao");
+            //FirstAndLastArrays fl = new FirstAndLastArrays();
+            //fl.nonRecursion(new int[] { 5, 7, 7, 8, 8, 10 }, 8);
             //HowSum cs = new HowSum();
             //List<int> results = new List<int>();
             //var e = cs.HowSumRecursive(7, new int[] { 5, 3, 4, 7 }, results);

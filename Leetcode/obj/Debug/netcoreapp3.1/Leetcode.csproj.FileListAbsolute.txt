@@ -24,3 +24,4 @@
 /Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.dll
 /Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.pdb
 /Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/obj/Debug/netcoreapp3.1/Leetcode.genruntimeconfig.cache
+/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/bin/Debug/netcoreapp3.1/Leetcode
