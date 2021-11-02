@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{A2F91633-D976-44D9-815A-3F94CDFCFAF9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Leetcode/ZigZagConversion.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Leetcode/CharsByFrequency.cs">
     <Files>
-      <File FileName="Leetcode/Program.cs" Line="30" Column="1" IsPinned="True" />
-      <File FileName="Leetcode/BinaryTree.cs" Line="15" Column="10" />
-      <File FileName="Leetcode/ShortestPath.cs" Line="1" Column="1" />
-      <File FileName="Leetcode/HowSum.cs" Line="1" Column="1" />
-      <File FileName="Leetcode/GridTraveller.cs" Line="34" Column="14" />
-      <File FileName="Leetcode/ZigZagConversion.cs" Line="19" Column="31" />
+      <File FileName="Leetcode/Program.cs" Line="10" Column="37" IsPinned="True" />
+      <File FileName="Leetcode/CharsByFrequency.cs" Line="43" Column="40" />
+      <File FileName="Leetcode/WordPermutation.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +23,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Program.cs" relfile="Leetcode/Program.cs" line="14" column="1" />
+      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Program.cs" relfile="Leetcode/Program.cs" line="92" column="1" />
       <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/HowSum.cs" relfile="Leetcode/HowSum.cs" line="13" column="1" />
       <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/HowSum.cs" relfile="Leetcode/HowSum.cs" line="10" column="1" />
       <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/ZigZagConversion.cs" relfile="Leetcode/ZigZagConversion.cs" line="16" column="1" />

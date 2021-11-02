@@ -6,8 +6,13 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            CharsByFrequency c = new CharsByFrequency();
-            c.FrequencySort("tree");
+
+            Graph_DFS gd = new Graph_DFS();
+            //gd.DFS(0);
+            gd.DFS_Recursive(0);
+
+            //CharsByFrequency c = new CharsByFrequency();
+            //c.FrequencySort("tree");
 
             //WordPermutation wp = new WordPermutation();
             //wp.IsPermutationPalindrometionPalindrome("Tact Cao");
