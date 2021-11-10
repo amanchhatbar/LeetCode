@@ -52,6 +52,14 @@ namespace Leetcode
             }
         }
 
+        public void DFS_Recursive(Node root)
+        {
+            if (root == null) return;
+            Console.WriteLine(root.data);
+            DFS_Recursive(root.left);
+            DFS_Recursive(root.right);
+        }
+
 
         public void BFS(Node root)
         {

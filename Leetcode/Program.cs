@@ -18,6 +18,8 @@ namespace Leetcode
 
 
             bt.DFS(node);
+            Console.WriteLine("Recursive");
+            bt.DFS_Recursive(node);
 
             //Graph_DFS gd = new Graph_DFS();
             ////gd.DFS(0);
