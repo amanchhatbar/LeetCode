@@ -16,9 +16,8 @@ namespace Leetcode
 
     public class BinaryTree
     {
-        public Node Root;
-        
-
+        System.Collections.Stack stack = new System.Collections.Stack();
+        System.Collections.Queue queue = new System.Collections.Queue();
         public Node Add(int data, Node root)
         {
             if(root == null)
@@ -39,7 +38,32 @@ namespace Leetcode
             return root;
         }
 
-       
 
+        public void DFS(Node root)
+        {
+            stack.Push(root);
+            
+            while(stack.Count > 0)
+            {
+                var poppedValue = (Node)stack.Pop();
+                Console.WriteLine(poppedValue.data);
+                if(poppedValue.right != null) stack.Push(poppedValue.right);
+                if(poppedValue.left != null) stack.Push(poppedValue.left);
+            }
+        }
+
+
+        public void BFS(Node root)
+        {
+            queue.Enqueue(root);
+
+            while (queue.Count > 0)
+            {
+                var poppedValue = (Node)queue.Dequeue();
+                Console.WriteLine(poppedValue.data);
+                if (poppedValue.right != null) queue.Enqueue(poppedValue.right);
+                if (poppedValue.left != null) queue.Enqueue(poppedValue.left);
+            }
+        }
     }
 }

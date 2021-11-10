@@ -10,12 +10,14 @@ namespace Leetcode
             Node node = new Node(4);
 
             BinaryTree bt = new BinaryTree();
-            bt.Add(4, node);
+            bt.Add(6, node);
             bt.Add(2,node );
             bt.Add(5,node);
             bt.Add(1,node);
             bt.Add(3,node);
 
+
+            bt.DFS(node);
 
             //Graph_DFS gd = new Graph_DFS();
             ////gd.DFS(0);
