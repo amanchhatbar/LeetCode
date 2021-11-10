@@ -121,5 +121,34 @@ namespace Leetcode
 
             return root.data + TreeSumRecursive(root.left) + TreeSumRecursive(root.right); 
         }
+
+        public int TreeMin(Node root)
+        {
+            int min = int.MaxValue;
+
+            stack.Push(root);
+            while (stack.Count > 0)
+            {
+                var popped = (Node)stack.Pop();
+                if(min > popped.data)
+                {
+                    min = popped.data;
+                }
+
+                if (popped.right != null) stack.Push(popped.right);
+                if (popped.left != null) stack.Push(popped.left);
+            }
+
+            return min;
+        }
+
+
+        //public int TreeMinRecursive(Node root)
+        //{
+        //    if (root == null)
+        //    {
+        //        return 0;
+        //    }
+        //}
     }
 }
