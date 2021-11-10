@@ -1,16 +1,28 @@
 ﻿<Properties StartupConfiguration="{A2F91633-D976-44D9-815A-3F94CDFCFAF9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Leetcode/Graph_BFS.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Leetcode/HowSum.cs">
     <Files>
       <File FileName="Leetcode/Program.cs" Line="97" Column="1" IsPinned="True" />
-      <File FileName="Leetcode/Graph_DFS.cs" Line="50" Column="51" />
-      <File FileName="Leetcode/Graph_BFS.cs" Line="47" Column="50" />
+      <File FileName="Leetcode/CharsByFrequency.cs" Line="1" Column="1" />
+      <File FileName="Leetcode/Graph_BFS.cs" Line="10" Column="27" />
+      <File FileName="Leetcode/Graph_DFS.cs" Line="59" Column="14" />
+      <File FileName="Leetcode/GridTraveller.cs" Line="20" Column="1" />
+      <File FileName="Leetcode/HowSum.cs" Line="22" Column="45" />
+      <File FileName="Leetcode/IslandCount.cs" Line="47" Column="1" />
+      <File FileName="Leetcode/MergeSort.cs" Line="1" Column="1" />
+      <File FileName="Leetcode/Microsoft.cs" Line="1" Column="1" />
+      <File FileName="Leetcode/ShortestPath.cs" Line="19" Column="24" />
+      <File FileName="Leetcode/ReverseLinkedList.cs" Line="1" Column="1" />
+      <File FileName="Leetcode/StringRotate.cs" Line="1" Column="1" />
+      <File FileName="Leetcode/WordPermutation.cs" Line="53" Column="14" />
+      <File FileName="Leetcode/ZigZagConversion.cs" Line="1" Column="1" />
+      <File FileName="Leetcode/CanSum.cs" Line="12" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Leetcode" expanded="True">
             <Node name="Leetcode" expanded="True">
-              <Node name="Graph_BFS.cs" selected="True" />
+              <Node name="HowSum.cs" selected="True" />
             </Node>
           </Node>
         </State>
