@@ -143,12 +143,18 @@ namespace Leetcode
         }
 
 
-        //public int TreeMinRecursive(Node root)
-        //{
-        //    if (root == null)
-        //    {
-        //        return 0;
-        //    }
-        //}
+        public int MaxPathSumn(Node root)
+        {
+            if (root == null) return int.MinValue;
+
+            if (root.left == null && root.right == null) return root.data;
+
+            var leftChild = MaxPathSumn(root.left);
+            var rightChild = MaxPathSumn(root.right);
+
+            var maxValue = leftChild > rightChild ? leftChild : rightChild;
+
+            return root.data + maxValue;
+        }
     }
 }
