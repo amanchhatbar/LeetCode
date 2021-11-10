@@ -110,5 +110,16 @@ namespace Leetcode
 
             return sum;
         }
+
+        public int TreeSumRecursive(Node root)
+        {
+
+            if(root== null)
+            {
+                return 0;
+            }
+
+            return root.data + TreeSumRecursive(root.left) + TreeSumRecursive(root.right); 
+        }
     }
 }

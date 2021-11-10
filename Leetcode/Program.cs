@@ -16,7 +16,8 @@ namespace Leetcode
             bt.Add(1,node);
             bt.Add(3,node);
 
-            bt.TreeSum(node);
+            Console.WriteLine(bt.TreeSum(node));
+            Console.WriteLine(bt.TreeSumRecursive(node));
 
             //var value = bt.DoesExist(8, node);
             //var values = bt.DoesExist(5, node);
