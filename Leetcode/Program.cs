@@ -7,9 +7,19 @@ namespace Leetcode
         static void Main(string[] args)
         {
 
-            Graph_DFS gd = new Graph_DFS();
-            //gd.DFS(0);
-            gd.DFS_Recursive(0);
+            Node node = new Node(4);
+
+            BinaryTree bt = new BinaryTree();
+            bt.Add(4, node);
+            bt.Add(2,node );
+            bt.Add(5,node);
+            bt.Add(1,node);
+            bt.Add(3,node);
+
+
+            //Graph_DFS gd = new Graph_DFS();
+            ////gd.DFS(0);
+            //gd.DFS_Recursive(0);
 
             //CharsByFrequency c = new CharsByFrequency();
             //c.FrequencySort("tree");

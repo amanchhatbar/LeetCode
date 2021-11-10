@@ -1,35 +1,45 @@
 ﻿using System;
 namespace Leetcode
 {
+
+    public class Node
+    {
+        public int data;
+        public Node left = null;
+        public Node right = null;
+
+        public Node(int _data)
+        {
+            data = _data;
+        }
+    }
+
     public class BinaryTree
     {
         public Node Root;
-        public class Node
-        {
-            public int data;
-            public Node left = null;
-            public Node right = null;
-        }
+        
 
-        public void Add(int data, Node root = null)
+        public Node Add(int data, Node root)
         {
             if(root == null)
             {
-                Node newNode = new Node();
-                newNode.data = data;
+                return new Node(data);
             }
 
             if(root.data <= data)
             {
-                Add(data, root.right);
+                root.right = Add(data, root.right);
             }
 
             else
             {
-                Add(data, root.left);
+                root.left = Add(data, root.left);
             }
+
+            return root;
         }
 
+       
 
     }
 }
