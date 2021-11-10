@@ -16,10 +16,14 @@ namespace Leetcode
             bt.Add(1,node);
             bt.Add(3,node);
 
+            bt.TreeSum(node);
 
-            bt.DFS(node);
-            Console.WriteLine("Recursive");
-            bt.DFS_Recursive(node);
+            //var value = bt.DoesExist(8, node);
+            //var values = bt.DoesExist(5, node);
+
+            //bt.DFS(node);
+            //Console.WriteLine("Recursive");
+            //bt.DFS_Recursive(node);
 
             //Graph_DFS gd = new Graph_DFS();
             ////gd.DFS(0);

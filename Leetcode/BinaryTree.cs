@@ -18,6 +18,7 @@ namespace Leetcode
     {
         System.Collections.Stack stack = new System.Collections.Stack();
         System.Collections.Queue queue = new System.Collections.Queue();
+       
         public Node Add(int data, Node root)
         {
             if(root == null)
@@ -72,6 +73,42 @@ namespace Leetcode
                 if (poppedValue.right != null) queue.Enqueue(poppedValue.right);
                 if (poppedValue.left != null) queue.Enqueue(poppedValue.left);
             }
+        }
+
+        public bool DoesExist(int target, Node root)
+        {
+            if (root == null)
+            {
+                return false;
+            }
+            if (root.data == target)
+            {
+                return true;
+            }
+
+            if(DoesExist(target, root.left) || DoesExist(target, root.right))
+            {
+                return true;
+            }          
+
+            return false;
+        }
+
+        public int TreeSum( Node root)
+        {
+            int sum = 0;
+
+            stack.Push(root);
+            while(stack.Count > 0)
+            {
+                var popped = (Node)stack.Pop();
+                sum += popped.data;
+
+                if (popped.right != null) stack.Push(popped.right);
+                if (popped.left != null) stack.Push(popped.left);
+            }
+
+            return sum;
         }
     }
 }
