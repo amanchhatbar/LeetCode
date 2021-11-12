@@ -7,15 +7,24 @@ namespace Leetcode
         static void Main(string[] args)
         {
 
-            Node node = new Node(4);
 
-            BinaryTree bt = new BinaryTree();
-            bt.Add(6, node);
-            bt.Add(2,node );
-            bt.Add(5,node);
-            bt.Add(1,node);
-            bt.Add(3,node);
-            Console.WriteLine(bt.TreeMin(node));
+            ListNode node2 = new ListNode(1);
+            node2.next = new ListNode(2);
+            node2.next.next = new ListNode(3);
+            node2.next.next.next = new ListNode(2);
+            node2.next.next.next.next = new ListNode(1);
+
+            PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();
+            palindromeLinkedList.IsPalindrome(node2);
+            //Node node = new Node(4);
+
+            //BinaryTree bt = new BinaryTree();
+            //bt.Add(6, node);
+            //bt.Add(2,node );
+            //bt.Add(5,node);
+            //bt.Add(1,node);
+            //bt.Add(3,node);
+            //Console.WriteLine(bt.TreeMin(node));
             //Console.WriteLine(bt.TreeSum(node));
             //Console.WriteLine(bt.TreeSumRecursive(node));
 
@@ -186,16 +195,7 @@ namespace Leetcode
             return result;
         }
 
-        public class ListNode
-        {
-            public int val;
-            public ListNode next;
-            public ListNode(int val = 0, ListNode next = null)
-            {
-                this.val = val;
-                this.next = next;
-            }
-        }
+        
         //Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
         //Output: 7 -> 0 -> 8
         //Explanation: 342 + 465 = 807.

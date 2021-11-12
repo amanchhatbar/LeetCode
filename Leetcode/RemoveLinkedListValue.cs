@@ -10,8 +10,6 @@ namespace Leetcode
                 return head;
             }
 
-
-
             ListNode prev = new ListNode();
             prev.next = head;
             ListNode current = prev;
@@ -31,8 +29,6 @@ namespace Leetcode
 
             return prev.next;
         }
-
-
 
     }
 }
