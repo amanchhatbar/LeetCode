@@ -11,9 +11,11 @@ namespace Leetcode
             ListNode node2 = new ListNode(1);
             node2.next = new ListNode(2);
             node2.next.next = new ListNode(3);
-            node2.next.next.next = new ListNode(2);
-            node2.next.next.next.next = new ListNode(1);
-
+            node2.next.next.next = new ListNode(4);
+            node2.next.next.next.next = new ListNode(4);
+            node2.next.next.next.next.next = new ListNode(3);
+            node2.next.next.next.next.next.next = new ListNode(2);
+            node2.next.next.next.next.next.next.next = new ListNode(1);
             PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();
             palindromeLinkedList.IsPalindrome(node2);
             //Node node = new Node(4);
