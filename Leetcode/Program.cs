@@ -7,17 +7,18 @@ namespace Leetcode
         static void Main(string[] args)
         {
 
-
-            ListNode node2 = new ListNode(1);
-            node2.next = new ListNode(2);
-            node2.next.next = new ListNode(3);
-            node2.next.next.next = new ListNode(4);
-            node2.next.next.next.next = new ListNode(4);
-            node2.next.next.next.next.next = new ListNode(3);
-            node2.next.next.next.next.next.next = new ListNode(2);
-            node2.next.next.next.next.next.next.next = new ListNode(1);
-            PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();
-            palindromeLinkedList.IsPalindrome(node2);
+            IslandCount islandCount = new IslandCount();
+            islandCount.IsLandCounter();
+            //ListNode node2 = new ListNode(1);
+            //node2.next = new ListNode(2);
+            //node2.next.next = new ListNode(3);
+            //node2.next.next.next = new ListNode(4);
+            //node2.next.next.next.next = new ListNode(4);
+            //node2.next.next.next.next.next = new ListNode(3);
+            //node2.next.next.next.next.next.next = new ListNode(2);
+            //node2.next.next.next.next.next.next.next = new ListNode(1);
+            //PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();
+            //palindromeLinkedList.IsPalindrome(node2);
             //Node node = new Node(4);
 
             //BinaryTree bt = new BinaryTree();
@@ -53,7 +54,8 @@ namespace Leetcode
             //var e = cs.HowSumRecursive(7, new int[] { 5, 3, 4, 7 }, results);
             //Console.WriteLine(cs.HowSumRecursive(7, new int[] { 5, 3, 4, 7 }, results));
             //Console.WriteLine(cs.HowSumRecursive(300, new int[] { 7, 14 }, results));
-
+            //CanSum canSum = new CanSum();
+            //canSum.CanSumMethod(7, new int[] { 5, 3, 4, 7 });
             //GridTraveller g = new GridTraveller();
             //Console.WriteLine(g.TravelGridRecursivelyMemoization(18, 18));
 
