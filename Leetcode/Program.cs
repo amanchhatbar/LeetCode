@@ -7,8 +7,27 @@ namespace Leetcode
         static void Main(string[] args)
         {
 
-            IslandCount islandCount = new IslandCount();
-            islandCount.IsLandCounter();
+            Hamming hamming = new Hamming();
+            hamming.HammingDistance(1, 4);
+            //int x = 0x0000F00D;
+            //Program p = new Program();
+            //p.ConvertHex(x);
+            //p.ConvertHex(0x1234BAAD);
+            //p.ConvertHex(unchecked((int)0xBAADBEEF));
+            //Console.WriteLine("0x" + (x + 1611464704).ToString("X"));
+
+            //x = 0x1234BAAD;
+            //Console.WriteLine("0x" + (x + 1306066944).ToString("X"));
+
+            //x = unchecked((int)0xBAADBEEF);
+            //Console.WriteLine("0x" + (x - 1520435200).ToString("X"));
+
+           // Console.WriteLine("600D" + x.ToString("X"));
+            //Console.WriteLine(0x600D0000 - unchecked((int)0xBAADBEEF));
+           // Console.WriteLine(0x600D0000 - 0x1234BAAD);
+
+            //IslandCount islandCount = new IslandCount();
+            //islandCount.IsLandCounter();
             //ListNode node2 = new ListNode(1);
             //node2.next = new ListNode(2);
             //node2.next.next = new ListNode(3);
@@ -126,6 +145,21 @@ namespace Leetcode
             //node2.next.next.next.next = new ListNode(9);
             //p.AddTwoNumbers(node1, node2);
             //p.TwoSum(new int[4] { 2, 7, 11, 15 }, 22);
+        }
+
+
+
+        private string ConvertHex(int x)
+        {
+
+            int value = (unchecked((int)0xFFFF0000)) - 0x600D0000;
+            int value3 = x << 16;
+            int value4 = value3 >> 16;
+            int value5 = value4 - value;
+
+            var result = value5.ToString("X");
+
+            return result;
         }
 
         public string LongestCommonPrefix(string[] strs)
