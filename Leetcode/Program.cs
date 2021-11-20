@@ -6,9 +6,11 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
+            LongestPalindrome longestPalindrome = new LongestPalindrome();
+            longestPalindrome.LongestValuePalindrome("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth");
 
-            Hamming hamming = new Hamming();
-            hamming.HammingDistance(1, 4);
+            //Hamming hamming = new Hamming();
+            //hamming.HammingDistance(1, 4);
             //int x = 0x0000F00D;
             //Program p = new Program();
             //p.ConvertHex(x);
@@ -22,9 +24,9 @@ namespace Leetcode
             //x = unchecked((int)0xBAADBEEF);
             //Console.WriteLine("0x" + (x - 1520435200).ToString("X"));
 
-           // Console.WriteLine("600D" + x.ToString("X"));
+            // Console.WriteLine("600D" + x.ToString("X"));
             //Console.WriteLine(0x600D0000 - unchecked((int)0xBAADBEEF));
-           // Console.WriteLine(0x600D0000 - 0x1234BAAD);
+            // Console.WriteLine(0x600D0000 - 0x1234BAAD);
 
             //IslandCount islandCount = new IslandCount();
             //islandCount.IsLandCounter();

@@ -5,6 +5,7 @@ namespace Leetcode
     {
         public int HammingDistance(int x, int y)
         {
+
             var xBin = Convert.ToString(x, 2);
             var yBin = Convert.ToString(y, 2);
 
