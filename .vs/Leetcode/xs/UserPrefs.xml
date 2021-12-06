@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{A2F91633-D976-44D9-815A-3F94CDFCFAF9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Leetcode/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Leetcode/TruckProblem.cs">
     <Files>
-      <File FileName="Leetcode/Program.cs" Line="156" Column="1" IsPinned="True" />
+      <File FileName="Leetcode/Program.cs" Line="11" Column="38" IsPinned="True" />
+      <File FileName="Leetcode/CanSum.cs" Line="12" Column="30" />
+      <File FileName="Leetcode/BinaryTree.cs" Line="34" Column="17" />
+      <File FileName="Leetcode/TruckProblem.cs" Line="24" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Leetcode" expanded="True">
             <Node name="Leetcode" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="TruckProblem.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -25,11 +28,13 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/CanSum.cs" relfile="Leetcode/CanSum.cs" line="27" column="1" />
-      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/CanSum.cs" relfile="Leetcode/CanSum.cs" line="9" column="1" />
-      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Program.cs" relfile="Leetcode/Program.cs" line="26" column="1" />
-      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Program.cs" relfile="Leetcode/Program.cs" line="160" column="1" />
-      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Program.cs" relfile="Leetcode/Program.cs" line="150" column="1" />
+      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Program.cs" relfile="Leetcode/Program.cs" line="154" column="1" />
+      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Hamming.cs" relfile="Leetcode/Hamming.cs" line="36" column="1" />
+      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/LongestPalindrome.cs" relfile="Leetcode/LongestPalindrome.cs" line="9" column="1" />
+      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/LongestPalindrome.cs" relfile="Leetcode/LongestPalindrome.cs" line="49" column="1" />
+      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/MicrosoftTest.cs" relfile="Leetcode/MicrosoftTest.cs" line="68" column="1" />
+      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/MicrosoftTest.cs" relfile="Leetcode/MicrosoftTest.cs" line="40" column="1" />
+      <Breakpoint file="/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/MicrosoftTest.cs" relfile="Leetcode/MicrosoftTest.cs" line="39" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
