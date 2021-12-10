@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace Leetcode
 {
 
@@ -220,6 +222,111 @@ namespace Leetcode
 
             var maxHeight = leftHeight > rightHeight ? leftHeight : rightHeight;
             return maxHeight + 1;
+        }
+
+
+        /**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+        public class Solution
+        {
+            public IList<string> BinaryTreePaths(TreeNode root)
+            {
+
+                var result = new List<string>();
+
+                if (root == null) return null;
+
+                if (root.left == null && root.right == null)
+                    return new List<string>() { root.val.ToString() };
+
+                var left = string.Empty;
+                var right = string.Empty;
+
+                if (root.left != null)
+                {
+                    left = Traverse(root.left);
+                }
+
+                if (root.right != null)
+                {
+                    right = Traverse(root.right);
+                }
+
+                if (!string.IsNullOrEmpty(left))
+                {
+                    left = root.val + left;
+                    result.Add(FormatOutput(left));
+                }
+
+                if (!string.IsNullOrEmpty(right))
+                {
+                    right = root.val + right;
+                    result.Add(FormatOutput(right));
+                }
+                return result;
+            }
+
+            public string FormatOutput(string input)
+            {
+                var result = string.Empty;
+                for (int i = 0; i < input.Length - 1; i++)
+                {
+                    result += input[i] + "->";
+                }
+
+                result += input[input.Length - 1].ToString();
+                return result;
+            }
+
+            public string Traverse(Node root)
+            {
+                if (root == null) return string.Empty;
+
+                return root.data.ToString() + Traverse(root.left) + Traverse(root.right);
+            }
+
+
+            public IList<string> BinaryTreePaths(Node root)
+            {
+
+                var result = new List<string>();
+
+                if (root == null) return null;
+
+                if (root.left == null && root.right == null)
+                    return new List<string>() { root.data.ToString() };
+
+                Traverse(root, result, string.Empty);
+
+                return result;
+
+            }
+
+            public List<string> Traverse(Node root, List<string> result, string temp)
+            {
+                if (root == null) return null;
+                if (root.left == null && root.right == null)
+                {
+                    result.Add(temp + root.data);
+                }
+                temp = temp + root.data.ToString() + "->";
+                if (root.left != null)
+                    Traverse(root.left, result, temp);
+                if (root.right != null)
+                    Traverse(root.right, result, temp);
+                return result;
+            }
         }
 
     }
