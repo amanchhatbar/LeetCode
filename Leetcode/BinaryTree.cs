@@ -178,5 +178,31 @@ namespace Leetcode
 
         }
 
+
+        public bool IsSymmetric(Node root)
+        {
+            if (root == null) return true;
+            var leftDFS = LeftDFS(root);
+
+            var rightDFSs = rightDFS(root);
+            if (String.Compare(leftDFS, rightDFSs) == 0) return true;
+
+            return false;
+        }
+
+        public string LeftDFS(Node root)
+        {
+            if (root == null) return "null";
+
+            return root.data.ToString() + LeftDFS(root.left) + LeftDFS(root.right);
+        }
+
+        public string rightDFS(Node root)
+        {
+            if (root == null) return "null";
+
+            return root.data.ToString() + rightDFS(root.right) + rightDFS(root.left);
+        }
+
     }
 }
