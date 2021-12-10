@@ -204,5 +204,23 @@ namespace Leetcode
             return root.data.ToString() + rightDFS(root.right) + rightDFS(root.left);
         }
 
+        public bool IsBalanced(Node root)
+        {
+            if (root == null) return true;
+            var leftSubTreeHeight = GetHeight(root.left);
+            var rightSubTreeHeight = GetHeight(root.right);
+            return Math.Abs(leftSubTreeHeight - rightSubTreeHeight) <= 1;
+        }
+
+        public int GetHeight(Node root)
+        {
+            if (root == null) return 0;
+            var leftHeight = GetHeight(root.left);
+            var rightHeight = GetHeight(root.right);
+
+            var maxHeight = leftHeight > rightHeight ? leftHeight : rightHeight;
+            return maxHeight + 1;
+        }
+
     }
 }
