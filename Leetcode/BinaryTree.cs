@@ -157,5 +157,26 @@ namespace Leetcode
             return root.data + maxValue;
         }
 
+        public bool IsSameTree(Node p, Node q)
+        {
+
+            var result = recursion(p, q);
+
+            return result;
+        }
+
+        public bool recursion(Node p, Node q)
+        {
+            if (p == null && q == null) return true;
+            if (p == null || q == null) return false;
+
+            if (p.data == q.data)
+            {
+                return recursion(p.left, q.left) && recursion(p.right, q.right);
+            }
+            return false;
+
+        }
+
     }
 }
