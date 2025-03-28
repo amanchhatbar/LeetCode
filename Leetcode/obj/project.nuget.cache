@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jb+RN38v+1WUp7c0URbuQWG2Bp/LoHvxDFmxEu9hnMRqqfbSuY4HUwf3f6OlPSINxGicQlquoiS7xPQgOu3Law==",
+  "dgSpecHash": "4Gn27Y86iHE=",
   "success": true,
-  "projectFilePath": "/Users/amanchhatbar/Documents/GitHub/LeetCode/Leetcode/Leetcode.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/amanchhatbar/Development/LeetCode/LeetCode/Leetcode/Leetcode.csproj",
+  "expectedPackageFiles": [
+    "/Users/amanchhatbar/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/amanchhatbar/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/amanchhatbar/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.32/microsoft.netcore.app.host.osx-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
